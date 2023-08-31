@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    border-radius: 10px;
+    background: var(--020-a-18, #020A18);
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Container*/
+
+.container {
+    width: 100%;
+    max-width: 1481px;
+    margin: 0 auto;
+    padding: 0 52px 0 32px;
+}
+
+.header {
+    height: 75px;
+    margin-bottom: 108px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) -41.9%, rgba(255, 255, 255, 0.02));
+    backdrop-filter: blur(100px);
+}
+
+.nav {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.nav__link {
+    opacity: 1;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: border-bottom .2s linear;
+}
+
+.nav__link:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.intro {
+    margin-bottom: 150px;
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.intro__info {
+    width: 704px;
+    height: 100%;
+}
+
+.info__suptitle {
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--3-a-68-b-8, #3A68B8);
+    text-transform: uppercase;
+}
+
+.info__title {
+    margin-bottom: 40px;
+    font-size: 3.23rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.info__text {
+    margin-bottom: 50px;
+    width: 520px;
+    color: var(--ffffff, #FFF);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.info__button {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.info__btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    padding: 15px 30px;
+    color: var(--ffffff, #FFF);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: background .2s linear;
+    position: relative;
+}
+
+.info__btn--play {
+    padding: 15px 45px;
+}
+
+.info__btn:hover {
+    background: #3a68b8a1
+}
+
+.btn__icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.top__logo__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
