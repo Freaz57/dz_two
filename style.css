@@ -1,8 +1,8 @@
 body {
     margin: 0;
     border-radius: 10px;
-    background: var(--020-a-18, #020A18);
-    font-family: Open Sans;
+    background: #020A18;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.4;
     color: #fff;
@@ -51,6 +51,9 @@ ol {
     padding: 0 52px 0 32px;
 }
 
+
+/*header*/
+
 .header {
     height: 75px;
     margin-bottom: 108px;
@@ -78,6 +81,9 @@ ol {
     border-bottom: 1px solid #fff;
 }
 
+
+/*intro*/
+
 .intro {
     margin-bottom: 150px;
 }
@@ -98,27 +104,30 @@ ol {
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
-    color: var(--3-a-68-b-8, #3A68B8);
+    color: #3A68B8;
     text-transform: uppercase;
+    pointer-events: none;
 }
 
 .info__title {
     margin-bottom: 40px;
-    font-size: 3.23rem;
+    font-size: 2.99rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 130%;
+    line-height: 1.2;
+    pointer-events: none;
 }
 
 .info__text {
     margin-bottom: 50px;
     width: 520px;
-    color: var(--ffffff, #FFF);
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
+    color: #FFF;
     line-height: 160%;
     opacity: 0.7;
+    pointer-events: none;
 }
 
 .info__button {
@@ -131,7 +140,7 @@ ol {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background: var(--3-a-68-b-8, #3A68B8);
+    background: #3A68B8;
     padding: 15px 30px;
     color: var(--ffffff, #FFF);
     font-size: 1.25rem;
@@ -157,6 +166,9 @@ ol {
     z-index: 1;
     transform: translateY(-50%);
 }
+
+
+/*top__logo__inner */
 
 .top__logo__inner {
     display: flex;
